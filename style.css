@@ -1,4 +1,25 @@
 
+body {
+    background-color: #bab6b629;
+}
+
+.personalInfo {
+    text-align: center;
+    max-width: 500px;
+    background-color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px #76387d45;
+    margin: 50px auto;
+}
+
+.personalInfo>p{
+    font-size: 19px;
+}
+.personalInfo>h1 {
+    font-size: 40px;
+}
+
 .pageHeader {
     font-size: 40px;
     text-align: center;
@@ -7,12 +28,16 @@
 img {
     max-width: 300px;
     margin-top: 15px;
+    border-radius: 5px;
 }
 
 .projectOuterContainer {
-    border: 1px solid black;
-    margin: auto;
     max-width: 1200px;
+    overflow:scroll;
+    margin: 2em auto 2em auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 14px #76387d45;
 }
 
 .projectInnerContainer {
@@ -35,5 +60,6 @@ img {
 
 .projectSubHeader {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: 0;
 }
