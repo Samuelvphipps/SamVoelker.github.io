@@ -46,12 +46,13 @@ img {
     padding: 1em;
     display: flex;
     padding: 1em;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .projectDetailsContainer {
-    max-width: 500px;
-    padding: 1em;
+    max-width: 900px;
+    margin-top: 10px;
+    padding: 1.5em;
 }
 
 .projectDetailsContainer>p {
